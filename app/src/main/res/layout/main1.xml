@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="微付 v 1.0"
+        android:textSize="30sp"
+        android:gravity="center|center_horizontal"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        
+        />
+    
+     <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+         <GridView 
+        android:id="@+id/gv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+         android:gravity="center"
+        android:verticalSpacing="20dp"
+        ></GridView>
+         <LinearLayout
+            android:id="@+id/console_line_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/red" 
+            android:orientation="horizontal" >
+        
+    <RadioGroup 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_gravity="bottom"
+         android:gravity="bottom"
+         android:orientation="horizontal"
+         
+        >
+        <RadioButton
+                    android:id="@+id/setting"
+                    style="@style/main_tab_bottom"
+                    android:checked="true"
+                    android:drawableTop="@drawable/setting"
+                    android:text="设置" />
+        <RadioButton
+                    android:id="@+id/jiaoban"
+                    style="@style/main_tab_bottom"
+                    android:checked="true"
+                    android:drawableTop="@drawable/jiaoban"
+                    android:text="交班" />
+        <RadioButton
+                    android:id="@+id/zhuxiao"
+                    style="@style/main_tab_bottom"
+                    android:checked="true"
+                    android:drawableTop="@drawable/zhuxiao"
+                    android:text="注销" />
+        <RadioButton
+                    android:id="@+id/quit"
+                    style="@style/main_tab_bottom"
+                    android:checked="true"
+                    android:drawableTop="@drawable/delete"
+                    android:text="退出" />
+        
+    </RadioGroup>
+    
+   </LinearLayout>
+   
+         <ImageView
+             android:id="@+id/iv_overtab" 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#19ff0000"
+             android:layout_alignParentBottom="true"
+             
+             /> 
+</RelativeLayout>
+</LinearLayout>

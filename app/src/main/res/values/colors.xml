@@ -3,4 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="light_gray">#ffe6e6e6</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="leftlist_item_normal">#ffffffff</color>
+    <color name="split_line">#106184</color>
+    <color name="title">#106184</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#ff4713</color>
+    <color name="rightred">#ff0000</color>
+
 </resources>

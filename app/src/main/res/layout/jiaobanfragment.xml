@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/red"
+    >
+     <RadioGroup 
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_gravity="bottom"
+         android:gravity="center"
+         android:orientation="horizontal"
+            
+            >
+        
+    
+
+        <RadioButton
+            style="@style/employeeInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当次交班信息" 
+            android:padding="5dp"
+            />
+
+        <RadioButton
+            style="@style/employeeInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="交班表格明细" 
+            android:padding="5dp"
+            />
+        </RadioGroup>
+    </LinearLayout>
+    
+    
+</LinearLayout>
+
